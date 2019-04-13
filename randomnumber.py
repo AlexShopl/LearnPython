@@ -1,8 +1,8 @@
 import random
-N=random.randint(1,10)   
+N=random.randint(1,100)   
 userGuess=-1        
 while userGuess!=N:      
-    userGuess=int(input("Угадай число от 1 до 10: "))      
+    userGuess=int(input("Угадай число от 1 до 100: "))      
     if userGuess > N:        
         print("Число должно быть меньше!")
     elif userGuess < N:         
