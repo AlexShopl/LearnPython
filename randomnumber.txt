@@ -8,6 +8,7 @@ while userGuess!=N:
     elif userGuess < N:         
         print("Число должно быть больше!")      
     else:         
-        print("Вы угадали, это число = " + str(N))           
-        #Конец игры - выйти из цикла while         
-    
+        print("Вы угадали, это число = " + str(N))  
+        print("Конец игры")         
+
+#Конец игры
